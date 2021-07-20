@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alle_offenen_CS2_Clearings</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CL_CS2InBearbeitung__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Alle offenen CS2 Clearings</label>
+    <sharedTo>
+        <role>Clearing</role>
+        <role>Systemadministration</role>
+    </sharedTo>
+</ListView>

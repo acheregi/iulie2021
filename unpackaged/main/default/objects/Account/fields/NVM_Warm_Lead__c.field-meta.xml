@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NVM_Warm_Lead__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(AccountSource , &quot;GoYellow Telesales&quot;), true, 
+IF(ISPICKVAL(AccountSource , &quot;GoLocal Telesales&quot;), true, 
+IF(ISPICKVAL(AccountSource , &quot;Vorqualifizierte GoYellow Telesales&quot;), true, 
+IF(ISPICKVAL(AccountSource , &quot;Cylex Telesales&quot;), true, 
+false) 
+) 
+) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Warm Lead</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

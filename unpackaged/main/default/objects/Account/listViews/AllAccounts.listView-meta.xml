@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>CL_VISID__c</columns>
+    <columns>LKM_NiederlassungAccount__c</columns>
+    <columns>LKM_RegionAccount__c</columns>
+    <columns>CL_NationalerBetreuerRollupHelper__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LKM_HunterHandelsvertreter__c</field>
+        <operation>contains</operation>
+        <value>Fernandez</value>
+    </filters>
+    <label>Alle Accounts</label>
+</ListView>

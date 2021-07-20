@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_FirmenstatusVorher__c</fullName>
+    <externalId>false</externalId>
+    <label>Firmenstatus Vorher</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Potenzial</fullName>
+                <default>false</default>
+                <label>Potenzial</label>
+            </value>
+            <value>
+                <fullName>non-Debitor Kunde</fullName>
+                <default>false</default>
+                <label>non-Debitor Kunde</label>
+            </value>
+            <value>
+                <fullName>Konzerndebitor</fullName>
+                <default>false</default>
+                <label>Konzerndebitor</label>
+            </value>
+            <value>
+                <fullName>Debitor Kunde</fullName>
+                <default>false</default>
+                <label>Debitor Kunde</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

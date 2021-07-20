@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_DeutschePLZImmerFuenfstellig</fullName>
+    <active>true</active>
+    <description>Eine PLZ muss immer fünfstellig sein, wenn der Ort in Deutschland liegt. Das bedeutet die führende Null für PLZ im Osten. Gilt nicht für Orte im Ausland.</description>
+    <errorConditionFormula>AND(
+BillingCountry = &quot;Deutschland&quot;,
+LEN(BillingPostalCode)&lt;&gt; 5,
+OR(
+$User.CL_Clearing_oder_Admin_User__c =FALSE,
+$User.Migration_User__c =FALSE),
+$Profile.Id &lt;&gt; &quot;00e1r0000013NHK&quot;, 
+NOT(ISPICKVAL( CL_Firmenstatus__c, &quot;Lead&quot;)) 
+)</errorConditionFormula>
+    <errorDisplayField>BillingPostalCode</errorDisplayField>
+    <errorMessage>Bei Accounts in Deutschland muss die Postleitzahl immer fünfstellig sein.</errorMessage>
+</ValidationRule>

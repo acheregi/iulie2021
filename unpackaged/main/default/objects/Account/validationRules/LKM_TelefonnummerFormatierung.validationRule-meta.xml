@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_TelefonnummerFormatierung</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(Phone)),
+NOT(REGEX(Phone, &quot;\\+[0-9]+&quot;)),
+$User.Migration_User__c =false , 
+$Profile.Id  &lt;&gt; &quot;00e1r0000013NHK&quot;,
+$User.CL_Clearing_oder_Admin_User__c =false)</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>Telefonnummer am Account UND an der Opportunity muss immer mit &quot;+&quot; anfangen und darf keine weiteren Sonderzeichen (auch keine Leerzeichen) enthalten. Beispiel: +49123456789</errorMessage>
+</ValidationRule>

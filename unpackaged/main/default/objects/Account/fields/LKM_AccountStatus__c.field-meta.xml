@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_AccountStatus__c</fullName>
+    <description>Information darüber, ob dieser Account schon Kunde ist, irrelevant für weil Ex-Kunde oder besitzt keine Filialen/ Standorte, ein untergeordneter Account oder auf der Blacklist etc.</description>
+    <externalId>false</externalId>
+    <label>Account Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Freier Account</fullName>
+                <default>false</default>
+                <label>Freier Account</label>
+            </value>
+            <value>
+                <fullName>Sellerbesitz</fullName>
+                <default>false</default>
+                <label>Sellerbesitz</label>
+            </value>
+            <value>
+                <fullName>Untergeordneter Account</fullName>
+                <default>false</default>
+                <label>Untergeordneter Account</label>
+            </value>
+            <value>
+                <fullName>Blacklist</fullName>
+                <default>false</default>
+                <label>Blacklist</label>
+            </value>
+            <value>
+                <fullName>Irrelevater Account</fullName>
+                <default>false</default>
+                <label>Irrelevater Account</label>
+            </value>
+            <value>
+                <fullName>Kunde</fullName>
+                <default>false</default>
+                <label>Kunde</label>
+            </value>
+            <value>
+                <fullName>Ex-Kunde</fullName>
+                <default>false</default>
+                <label>Ex-Kunde</label>
+            </value>
+            <value>
+                <fullName>Kunde/Verlängerer</fullName>
+                <default>false</default>
+                <label>Kunde/Verlängerer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

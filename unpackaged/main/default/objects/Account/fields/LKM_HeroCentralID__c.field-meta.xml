@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_HeroCentralID__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Status Kunde HC</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Status Kunde HC</inlineHelpText>
+    <label>HeroCentral ID</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

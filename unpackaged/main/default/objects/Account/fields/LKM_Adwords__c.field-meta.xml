@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_Adwords__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Kontrollfeld für Firmen denen das RIF-Adwords Produkt angeboten wurde</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Zeigt an, ob dem Kunden RIF-AdWords von RegioHelden angeboten wurde</inlineHelpText>
+    <label>Adwords</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

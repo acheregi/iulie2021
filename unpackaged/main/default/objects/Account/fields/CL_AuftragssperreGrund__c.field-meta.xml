@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_AuftragssperreGrund__c</fullName>
+    <externalId>false</externalId>
+    <label>Auftragssperre Grund</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Abgabe Inkasso</fullName>
+                <default>false</default>
+                <label>Abgabe Inkasso</label>
+            </value>
+            <value>
+                <fullName>Dublette</fullName>
+                <default>false</default>
+                <label>Dublette</label>
+            </value>
+            <value>
+                <fullName>eidesstattl.Vers.</fullName>
+                <default>false</default>
+                <label>eidesstattl.Vers.</label>
+            </value>
+            <value>
+                <fullName>Gegengeschäft</fullName>
+                <default>false</default>
+                <label>Gegengeschäft</label>
+            </value>
+            <value>
+                <fullName>Inaktiv</fullName>
+                <default>false</default>
+                <label>Inaktiv</label>
+            </value>
+            <value>
+                <fullName>Inkasso MIC</fullName>
+                <default>false</default>
+                <label>Inkasso MIC</label>
+            </value>
+            <value>
+                <fullName>InsoVerf.eingeleitet</fullName>
+                <default>false</default>
+                <label>InsoVerf.eingeleitet</label>
+            </value>
+            <value>
+                <fullName>Konzerndebitor</fullName>
+                <default>false</default>
+                <label>Konzerndebitor</label>
+            </value>
+            <value>
+                <fullName>Limitüberschreitung</fullName>
+                <default>false</default>
+                <label>Limitüberschreitung</label>
+            </value>
+            <value>
+                <fullName>Liquidation</fullName>
+                <default>false</default>
+                <label>Liquidation</label>
+            </value>
+            <value>
+                <fullName>Nichtzahlung 2.Mahnu</fullName>
+                <default>false</default>
+                <label>Nichtzahlung 2.Mahnu</label>
+            </value>
+            <value>
+                <fullName>nur für Finanzbuchh.</fullName>
+                <default>false</default>
+                <label>nur für Finanzbuchh.</label>
+            </value>
+            <value>
+                <fullName>nur Rechnungsempfäng</fullName>
+                <default>false</default>
+                <label>nur Rechnungsempfäng</label>
+            </value>
+            <value>
+                <fullName>ooB D&amp;B</fullName>
+                <default>false</default>
+                <label>ooB D&amp;B</label>
+            </value>
+            <value>
+                <fullName>Rate</fullName>
+                <default>false</default>
+                <label>Rate</label>
+            </value>
+            <value>
+                <fullName>schlechte Bonität</fullName>
+                <default>false</default>
+                <label>schlechte Bonität</label>
+            </value>
+            <value>
+                <fullName>Sonderfälle</fullName>
+                <default>false</default>
+                <label>Sonderfälle</label>
+            </value>
+            <value>
+                <fullName>Testsperre</fullName>
+                <default>false</default>
+                <label>Testsperre</label>
+            </value>
+            <value>
+                <fullName>unbekannt verzogen</fullName>
+                <default>false</default>
+                <label>unbekannt verzogen</label>
+            </value>
+            <value>
+                <fullName>Vergl. geschlossen</fullName>
+                <default>false</default>
+                <label>Vergl. geschlossen</label>
+            </value>
+            <value>
+                <fullName>Verschmelzung</fullName>
+                <default>false</default>
+                <label>Verschmelzung</label>
+            </value>
+            <value>
+                <fullName>Werbegemeinschaft</fullName>
+                <default>false</default>
+                <label>Werbegemeinschaft</label>
+            </value>
+            <value>
+                <fullName>wgGeringf.ausgebucht</fullName>
+                <default>false</default>
+                <label>wgGeringf.ausgebucht</label>
+            </value>
+            <value>
+                <fullName>Zwangsvollst.fruchtl</fullName>
+                <default>false</default>
+                <label>Zwangsvollst.fruchtl</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

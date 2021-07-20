@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_PWSDebitorKeyOnlyForDebitors</fullName>
+    <active>true</active>
+    <description>It leads to problems in BizTalk if someone requests a PWS Debitor Key while the account is not cleared as debitor yet, or is in CS2 clearing and therefore locked.</description>
+    <errorConditionFormula>CL_AnlagePWSAlsDebitor__c 
+&amp;&amp; 
+(
+(ISNEW() &amp;&amp; !ISPICKVAL(CL_Firmenstatus__c , &#39;Debitor Kunde&#39;))
+||
+(!ISNEW() &amp;&amp;  ISCHANGED(CL_AnlagePWSAlsDebitor__c) &amp;&amp; (ISBLANK( CL_DebitorenNr__c ) ||  CL_CS2InBearbeitung__c ))
+)</errorConditionFormula>
+    <errorDisplayField>CL_AnlagePWSAlsDebitor__c</errorDisplayField>
+    <errorMessage>Es kann kein PWS Debitorenschlüssel angefordert werden, wenn der Kunde kein Debitor ist oder sich gerade im CS2 Clearing befindet.</errorMessage>
+</ValidationRule>

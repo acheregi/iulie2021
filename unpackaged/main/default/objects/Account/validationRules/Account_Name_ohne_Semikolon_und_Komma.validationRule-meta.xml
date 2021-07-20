@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Name_ohne_Semikolon_und_Komma</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(
+CONTAINS(Name, &quot;,&quot;),
+CONTAINS(Name, &quot;;&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Bitte kein Semikolon oder Komma eingeben!</errorMessage>
+</ValidationRule>

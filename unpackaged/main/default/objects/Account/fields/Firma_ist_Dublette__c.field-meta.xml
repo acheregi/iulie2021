@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Firma_ist_Dublette__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>SL-351</description>
+    <externalId>false</externalId>
+    <label>Firma ist Dublette</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

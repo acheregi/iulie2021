@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_FirmenstatusKeineAenderungBeiClearing</fullName>
+    <active>true</active>
+    <description>Der Firmenstatus darf während eines laufenden Clearing Prozesses nicht geändert werden. Ausgenommen sind Admin und Integration User durch profil ID und alle im User als 
+Clearing_oder_Admin markierten Benutzer</description>
+    <errorConditionFormula>AND(ischanged(   CL_Firmenstatus__c  ),
+$Profile.Id  &lt;&gt; &quot;00e1r0000013NHK&quot;,  
+$Profile.Id &lt;&gt; &quot;00e1r000001sPO1&quot;, 
+OR(CL_CS1InBearbeitung__c , CL_CS2InBearbeitung__c ),
+ $User.Migration_User__c=false, $User.CL_Clearing_oder_Admin_User__c =false)</errorConditionFormula>
+    <errorDisplayField>CL_Firmenstatus__c</errorDisplayField>
+    <errorMessage>Der Firmenstatus darf während eines laufenden Clearing Prozesses nicht geändert werden</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WZ_Code__c</fullName>
+    <description>Granularere und genauere Abbildung von Branchenzuordnungen für eine verbesserte Aussteuerung von Vertriebskampagnen und eine höhere Qualität von Potentiallisten. SFS-185</description>
+    <externalId>false</externalId>
+    <label>WZ Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

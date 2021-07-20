@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_Firmenstatus_nur_Upgradable</fullName>
+    <active>true</active>
+    <description>Der Firmenstatus eines Accounts kann nur hoch-, aber nicht herabgestuft werden. 
+Ausnahme Clearing, SysAdmin und Integration User</description>
+    <errorConditionFormula>OR( 
+text(priorvalue( CL_Firmenstatus__c ))=&quot;Sonstige&quot; &amp;&amp; text(CL_Firmenstatus__c )=&quot;Lead&quot;, 
+
+text(priorvalue( CL_Firmenstatus__c ))=&quot;Potenzial&quot; &amp;&amp; (text(CL_Firmenstatus__c )=&quot;Lead&quot; || text(CL_Firmenstatus__c )=&quot;Sonstige&quot;), 
+
+text(priorvalue( CL_Firmenstatus__c ))=&quot;non-Debitor Kunde&quot; &amp;&amp; (text(CL_Firmenstatus__c )=&quot;Lead&quot; || text(CL_Firmenstatus__c )=&quot;Sonstige&quot; || text(CL_Firmenstatus__c )=&quot;Potenzial&quot;), 
+
+text(priorvalue( CL_Firmenstatus__c ))=&quot;Debitor Kunde&quot; &amp;&amp; (text(CL_Firmenstatus__c )=&quot;Lead&quot; || text(CL_Firmenstatus__c )=&quot;Sonstige&quot; || text(CL_Firmenstatus__c )=&quot;Potenzial&quot; || text(CL_Firmenstatus__c )=&quot;non-Debitor Kunde&quot;), 
+
+text(priorvalue( CL_Firmenstatus__c ))=&quot;Konzerndebitor&quot; &amp;&amp; (text(CL_Firmenstatus__c )=&quot;Lead&quot; || text(CL_Firmenstatus__c )=&quot;Sonstige&quot; || text(CL_Firmenstatus__c )=&quot;Potenzial&quot; || text(CL_Firmenstatus__c )=&quot;non-Debitor Kunde&quot; || text(CL_Firmenstatus__c )=&quot;Debitor Kunde&quot;))
+
+&amp;&amp;
+$Profile.Id &lt;&gt; &quot;00e1r0000013NHK&quot; &amp;&amp;
+$User.Migration_User__c=false &amp;&amp; $User.CL_Clearing_oder_Admin_User__c =false</errorConditionFormula>
+    <errorMessage>Der Firmenstatus eines Accounts kann nur hoch-, aber nicht herabgestuft werden: 
+Lead-&gt;Sonstige-&gt;Potenzial-&gt;non-Debitor Kunde-&gt;Debitor Kunde-&gt;Konzerndebitor</errorMessage>
+</ValidationRule>

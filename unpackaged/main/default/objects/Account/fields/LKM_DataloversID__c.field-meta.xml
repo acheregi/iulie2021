@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_DataloversID__c</fullName>
+    <description>ID generiert von Datalovers- Daten Lieferant</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Referenz für externe Leadquelle</inlineHelpText>
+    <label>Datalovers ID</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

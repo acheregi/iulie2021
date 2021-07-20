@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_ZahlungskonditionenVG1__c</fullName>
+    <externalId>false</externalId>
+    <label>Zahlungskonditionen (VG1)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>14 Tage ab Re.dat. 2% Skto., 45 Tage ohne Abzug</fullName>
+                <default>false</default>
+                <label>14 Tage ab Re.dat. 2% Skto., 45 Tage ohne Abzug</label>
+            </value>
+            <value>
+                <fullName>14 Tagen ab Rechnungsdatum ohne Abzug</fullName>
+                <default>false</default>
+                <label>14 Tagen ab Rechnungsdatum ohne Abzug</label>
+            </value>
+            <value>
+                <fullName>14 Tg. ab Leist.beg. 2%Skt.;30 ab Leist.beg. o.Ab</fullName>
+                <default>false</default>
+                <label>14 Tg. ab Leist.beg. 2%Skt.;30 ab Leist.beg. o.Ab</label>
+            </value>
+            <value>
+                <fullName>14 Tg. bis Leist.beg. 2% Skt, 30 Tg. o. Abz. ab Le</fullName>
+                <default>false</default>
+                <label>14 Tg. bis Leist.beg. 2% Skt, 30 Tg. o. Abz. ab Le</label>
+            </value>
+            <value>
+                <fullName>30 Tage ab Leistungsdatum mit 2% Skonto</fullName>
+                <default>false</default>
+                <label>30 Tage ab Leistungsdatum mit 2% Skonto</label>
+            </value>
+            <value>
+                <fullName>30 Tage ab Leistungsdatum ohne Abzug</fullName>
+                <default>false</default>
+                <label>30 Tage ab Leistungsdatum ohne Abzug</label>
+            </value>
+            <value>
+                <fullName>4 Tage nach Rechnungsdatum ohne Abzug</fullName>
+                <default>false</default>
+                <label>4 Tage nach Rechnungsdatum ohne Abzug</label>
+            </value>
+            <value>
+                <fullName>45 Tagen ab Rechnungsdatum ohne Abzug</fullName>
+                <default>false</default>
+                <label>45 Tagen ab Rechnungsdatum ohne Abzug</label>
+            </value>
+            <value>
+                <fullName>8 Tage ab Rechnugsdatum 2 % Skt.; 30 Tage o. Abzug</fullName>
+                <default>false</default>
+                <label>8 Tage ab Rechnugsdatum 2 % Skt.; 30 Tage o. Abzug</label>
+            </value>
+            <value>
+                <fullName>8 Tage ab Rechnungsdatum ohne Abzug</fullName>
+                <default>false</default>
+                <label>8 Tage ab Rechnungsdatum ohne Abzug</label>
+            </value>
+            <value>
+                <fullName>90 Tage ab Leistungsdatum mit 2% Skonto</fullName>
+                <default>false</default>
+                <label>90 Tage ab Leistungsdatum mit 2% Skonto</label>
+            </value>
+            <value>
+                <fullName>90 Tage ab Rechnungsdatum ohne Abzug</fullName>
+                <default>false</default>
+                <label>90 Tage ab Rechnungsdatum ohne Abzug</label>
+            </value>
+            <value>
+                <fullName>Vorauskasse</fullName>
+                <default>false</default>
+                <label>Vorauskasse</label>
+            </value>
+            <value>
+                <fullName>Fällig zum 1. Tag des Leistungszeitraum ohne Abzug</fullName>
+                <default>false</default>
+                <label>Fällig zum 1. Tag des Leistungszeitraum ohne Abzug</label>
+            </value>
+            <value>
+                <fullName>14 Tage 3%, 20/2%, 30 net</fullName>
+                <default>false</default>
+                <label>14 Tage 3%, 20/2%, 30 net</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

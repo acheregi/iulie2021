@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_HunterEmail__c</fullName>
+    <description>Hilfsfeld zur Abbildung der Hunter Benachrichtigung bei Account Sperrung</description>
+    <externalId>false</externalId>
+    <label>Hunter Email</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

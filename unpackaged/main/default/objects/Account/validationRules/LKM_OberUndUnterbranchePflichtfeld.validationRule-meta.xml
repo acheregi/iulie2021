@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_OberUndUnterbranchePflichtfeld</fullName>
+    <active>true</active>
+    <description>Alle Accounts in SF1 müssen eine Ober- sowie Unterbranche ausgewählt haben. Dies gilt nicht für Accounts aus SF2 oder SF3, da dort nur die Nielsenbranche ausgewählt werden kann</description>
+    <errorConditionFormula>AND(
+OR(
+ISPICKVAL(LKM_IndustryUnterbranche__c, &quot;&quot;),
+ISPICKVAL(LKM_IndustryOberbranche__c , &quot;&quot;)),
+OR(
+ISPICKVAL(CL_Firmenstatus__c , &quot;non-Debitor Kunde&quot;),
+ISPICKVAL(CL_Firmenstatus__c,&quot;Debitor Kunde&quot;),
+ISPICKVAL(CL_Firmenstatus__c, &quot;Konzerndebitor&quot;),
+ISPICKVAL(CL_Firmenstatus__c, &quot;Sonstige&quot;),
+ISPICKVAL(CL_Firmenstatus__c, &quot;Potenzial&quot;)),
+ISBLANK(CL_AccountIDInSF2__c ),
+ISBLANK(CL_AccountIDInSF3__c )
+)
+
+
+&amp;&amp;
+
+$User.Migration_User__c =false
+&amp;&amp; $Profile.Id  &lt;&gt; &quot;00e1r0000013NHK&quot;
+&amp;&amp; $User.CL_Clearing_oder_Admin_User__c =false</errorConditionFormula>
+    <errorMessage>Bitte die Oberbranche und Unterbranche auswählen</errorMessage>
+</ValidationRule>

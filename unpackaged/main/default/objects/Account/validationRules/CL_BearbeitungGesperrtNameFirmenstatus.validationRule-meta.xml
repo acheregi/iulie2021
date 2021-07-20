@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_BearbeitungGesperrtNameFirmenstatus</fullName>
+    <active>true</active>
+    <description>Account Name und Firmenstatus dürfen bei gesperrten Datensätzen nicht geändert werden. 
+Zusätzliche Änderungseinschränkungen bei Hunter Profil, da sie auf dem reduzierten Mobile Layout bleiben.</description>
+    <errorConditionFormula>and(contains(RecordType.DeveloperName ,&quot;GESPERRT&quot;), not($User.CL_Clearing_oder_Admin_User__c ),  not($User.Migration_User__c ),
+$Profile.Id  &lt;&gt; &quot;00e1r0000013NHK&quot;,
+OR( 
+ischanged( Name ), 
+ischanged( CL_Firmenstatus__c), 
+ischanged( CL_VISID__c ), 
+ischanged( Phone ), 
+ischanged( CL_EMail__c ), 
+ischanged( Website ),
+ischanged(  BillingState  ),
+ischanged( BillingCountry  ),
+ischanged(  BillingPostalCode  ),
+ischanged( BillingCity ),
+ischanged( BillingStreet )
+) 
+)</errorConditionFormula>
+    <errorMessage>Account Name und Firmenstatus dürfen bei gesperrten Datensätzen nicht geändert werden. Sperrung zusätzlicher Felder bei Hunter</errorMessage>
+</ValidationRule>

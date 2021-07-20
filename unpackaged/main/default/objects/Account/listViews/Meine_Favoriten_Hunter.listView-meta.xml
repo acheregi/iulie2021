@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meine_Favoriten_Hunter</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.ADDRESS1_STREET</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>LKM_HunterHandelsvertreter__c</columns>
+    <columns>LKM_HunterSeit__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LKM_MeineFavoritenHunter__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>LKM_HunterStatusInnen__c</field>
+        <operation>notEqual</operation>
+        <value>geparkt</value>
+    </filters>
+    <label>Meine Favoriten (Hunter)</label>
+</ListView>

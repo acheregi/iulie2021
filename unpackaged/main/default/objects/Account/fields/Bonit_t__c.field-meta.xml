@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bonit_t__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+OR(
+ISPICKVAL(CL_Risikoklasse__c, &quot;sehr kritisch&quot;),ISPICKVAL(CL_Risikoklasse__c, &quot;nicht kreditwürdig&quot;)),
+IMAGE(&quot;https://stroeer-eins--c.eu43.content.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0686900000Nztdd&amp;operationContext=CHATTER&amp;contentId=05T6900001KpUnr&quot;,&quot; &quot;,30,30),
+&quot; &quot;)</formula>
+    <label>Bonität</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

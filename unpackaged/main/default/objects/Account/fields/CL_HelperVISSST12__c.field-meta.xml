@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_HelperVISSST12__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Hilfsfeld zum Auslösen eines PG&#39;s nach Rückmeldung der SST1.2 &quot;VIS hat seine Arbeit erledigt&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Hilfsfeld zum Auslösen eines PG&#39;s nach Rückmeldung der SST1.2 &quot;VIS hat seine Arbeit erledigt&quot;</inlineHelpText>
+    <label>Helper VIS SST1.2</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

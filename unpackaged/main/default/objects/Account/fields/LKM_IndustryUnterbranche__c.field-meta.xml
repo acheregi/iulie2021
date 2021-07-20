@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_IndustryUnterbranche__c</fullName>
+    <externalId>false</externalId>
+    <label>Unterbranche</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LKM_IndustryOberbranche__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Abschleppdienst</fullName>
+                <default>false</default>
+                <label>Abschleppdienst</label>
+            </value>
+            <value>
+                <fullName>Agentur Sonstige</fullName>
+                <default>false</default>
+                <label>Agentur Sonstige</label>
+            </value>
+            <value>
+                <fullName>Anwälte</fullName>
+                <default>false</default>
+                <label>Anwälte</label>
+            </value>
+            <value>
+                <fullName>Apotheken</fullName>
+                <default>false</default>
+                <label>Apotheken</label>
+            </value>
+            <value>
+                <fullName>Architektur</fullName>
+                <default>false</default>
+                <label>Architektur</label>
+            </value>
+            <value>
+                <fullName>Ärzte</fullName>
+                <default>false</default>
+                <label>Ärzte</label>
+            </value>
+            <value>
+                <fullName>Autohaus</fullName>
+                <default>false</default>
+                <label>Autohaus</label>
+            </value>
+            <value>
+                <fullName>Autohersteller</fullName>
+                <default>false</default>
+                <label>Autohersteller</label>
+            </value>
+            <value>
+                <fullName>Autovermietung</fullName>
+                <default>false</default>
+                <label>Autovermietung</label>
+            </value>
+            <value>
+                <fullName>Banken Sonstige</fullName>
+                <default>false</default>
+                <label>Banken Sonstige</label>
+            </value>
+            <value>
+                <fullName>Bars / Diskotheken</fullName>
+                <default>false</default>
+                <label>Bars / Diskotheken</label>
+            </value>
+            <value>
+                <fullName>Baumärkte</fullName>
+                <default>false</default>
+                <label>Baumärkte</label>
+            </value>
+            <value>
+                <fullName>Bauträger</fullName>
+                <default>false</default>
+                <label>Bauträger</label>
+            </value>
+            <value>
+                <fullName>Beauty / Kosmetik / Wellness Sonstige</fullName>
+                <default>false</default>
+                <label>Beauty / Kosmetik / Wellness Sonstige</label>
+            </value>
+            <value>
+                <fullName>Behörden / Verwaltung</fullName>
+                <default>false</default>
+                <label>Behörden / Verwaltung</label>
+            </value>
+            <value>
+                <fullName>Beratung / Coaching</fullName>
+                <default>false</default>
+                <label>Beratung / Coaching</label>
+            </value>
+            <value>
+                <fullName>Bestattung</fullName>
+                <default>false</default>
+                <label>Bestattung</label>
+            </value>
+            <value>
+                <fullName>Brauerei / Getränkehersteller</fullName>
+                <default>false</default>
+                <label>Brauerei / Getränkehersteller</label>
+            </value>
+            <value>
+                <fullName>Caritative Organisationen</fullName>
+                <default>false</default>
+                <label>Caritative Organisationen</label>
+            </value>
+            <value>
+                <fullName>Catering</fullName>
+                <default>false</default>
+                <label>Catering</label>
+            </value>
+            <value>
+                <fullName>Dienstleistung Sonstige</fullName>
+                <default>false</default>
+                <label>Dienstleistung Sonstige</label>
+            </value>
+            <value>
+                <fullName>Drogerie</fullName>
+                <default>false</default>
+                <label>Drogerie</label>
+            </value>
+            <value>
+                <fullName>Druckereien</fullName>
+                <default>false</default>
+                <label>Druckereien</label>
+            </value>
+            <value>
+                <fullName>Einkaufszentrum</fullName>
+                <default>false</default>
+                <label>Einkaufszentrum</label>
+            </value>
+            <value>
+                <fullName>Einzelgastronomie</fullName>
+                <default>false</default>
+                <label>Einzelgastronomie</label>
+            </value>
+            <value>
+                <fullName>Elektronik- / IT-Märkte</fullName>
+                <default>false</default>
+                <label>Elektronik- / IT-Märkte</label>
+            </value>
+            <value>
+                <fullName>Elektronik / IT Sonstige</fullName>
+                <default>false</default>
+                <label>Elektronik / IT Sonstige</label>
+            </value>
+            <value>
+                <fullName>Energieversorger</fullName>
+                <default>false</default>
+                <label>Energieversorger</label>
+            </value>
+            <value>
+                <fullName>Entsorgungsbetriebe</fullName>
+                <default>false</default>
+                <label>Entsorgungsbetriebe</label>
+            </value>
+            <value>
+                <fullName>Erotik</fullName>
+                <default>false</default>
+                <label>Erotik</label>
+            </value>
+            <value>
+                <fullName>Event- / Künstler-Agenturen / Veranstalter</fullName>
+                <default>false</default>
+                <label>Event- / Künstler-Agenturen / Veranstalter</label>
+            </value>
+            <value>
+                <fullName>Finanzdienstleistung</fullName>
+                <default>false</default>
+                <label>Finanzdienstleistung</label>
+            </value>
+            <value>
+                <fullName>Fitnessstudio</fullName>
+                <default>false</default>
+                <label>Fitnessstudio</label>
+            </value>
+            <value>
+                <fullName>Fluggesellschaften</fullName>
+                <default>false</default>
+                <label>Fluggesellschaften</label>
+            </value>
+            <value>
+                <fullName>Freizeit Sonstige</fullName>
+                <default>false</default>
+                <label>Freizeit Sonstige</label>
+            </value>
+            <value>
+                <fullName>Gaming</fullName>
+                <default>false</default>
+                <label>Gaming</label>
+            </value>
+            <value>
+                <fullName>Gastronomie Sonstige</fullName>
+                <default>false</default>
+                <label>Gastronomie Sonstige</label>
+            </value>
+            <value>
+                <fullName>Gebrauchtwagenhandel</fullName>
+                <default>false</default>
+                <label>Gebrauchtwagenhandel</label>
+            </value>
+            <value>
+                <fullName>Gutachter</fullName>
+                <default>false</default>
+                <label>Gutachter</label>
+            </value>
+            <value>
+                <fullName>Handel Sonstige</fullName>
+                <default>false</default>
+                <label>Handel Sonstige</label>
+            </value>
+            <value>
+                <fullName>Handelsvertreter</fullName>
+                <default>false</default>
+                <label>Handelsvertreter</label>
+            </value>
+            <value>
+                <fullName>Handwerk</fullName>
+                <default>false</default>
+                <label>Handwerk</label>
+            </value>
+            <value>
+                <fullName>Hardwarehersteller</fullName>
+                <default>false</default>
+                <label>Hardwarehersteller</label>
+            </value>
+            <value>
+                <fullName>Hausverwaltung / Hausservices</fullName>
+                <default>false</default>
+                <label>Hausverwaltung / Hausservices</label>
+            </value>
+            <value>
+                <fullName>Hotels</fullName>
+                <default>false</default>
+                <label>Hotels</label>
+            </value>
+            <value>
+                <fullName>Imbiss</fullName>
+                <default>false</default>
+                <label>Imbiss</label>
+            </value>
+            <value>
+                <fullName>Immobilien</fullName>
+                <default>false</default>
+                <label>Immobilien</label>
+            </value>
+            <value>
+                <fullName>Innenreinigung</fullName>
+                <default>false</default>
+                <label>Innenreinigung</label>
+            </value>
+            <value>
+                <fullName>Jobportale</fullName>
+                <default>false</default>
+                <label>Jobportale</label>
+            </value>
+            <value>
+                <fullName>Kanal- / Rohrreinigung</fullName>
+                <default>false</default>
+                <label>Kanal- / Rohrreinigung</label>
+            </value>
+            <value>
+                <fullName>KFZ Sonstige</fullName>
+                <default>false</default>
+                <label>KFZ Sonstige</label>
+            </value>
+            <value>
+                <fullName>Kindertagesstätten / Kindergärten</fullName>
+                <default>false</default>
+                <label>Kindertagesstätten / Kindergärten</label>
+            </value>
+            <value>
+                <fullName>Kino</fullName>
+                <default>false</default>
+                <label>Kino</label>
+            </value>
+            <value>
+                <fullName>Kirchen</fullName>
+                <default>false</default>
+                <label>Kirchen</label>
+            </value>
+            <value>
+                <fullName>Kosmetikinstitute / Spa / Friseurketten</fullName>
+                <default>false</default>
+                <label>Kosmetikinstitute / Spa / Friseurketten</label>
+            </value>
+            <value>
+                <fullName>Krankenhäuser</fullName>
+                <default>false</default>
+                <label>Krankenhäuser</label>
+            </value>
+            <value>
+                <fullName>Küchenstudio</fullName>
+                <default>false</default>
+                <label>Küchenstudio</label>
+            </value>
+            <value>
+                <fullName>Kultur Sonstige</fullName>
+                <default>false</default>
+                <label>Kultur Sonstige</label>
+            </value>
+            <value>
+                <fullName>Kurier / Taxi / Chauffeur</fullName>
+                <default>false</default>
+                <label>Kurier / Taxi / Chauffeur</label>
+            </value>
+            <value>
+                <fullName>Lebensmitteleinzelhandel</fullName>
+                <default>false</default>
+                <label>Lebensmitteleinzelhandel</label>
+            </value>
+            <value>
+                <fullName>Lieferdienste</fullName>
+                <default>false</default>
+                <label>Lieferdienste</label>
+            </value>
+            <value>
+                <fullName>Logistik / Transportunternehmen</fullName>
+                <default>false</default>
+                <label>Logistik / Transportunternehmen</label>
+            </value>
+            <value>
+                <fullName>Medizin / Gesundheit Sonstige</fullName>
+                <default>false</default>
+                <label>Medizin / Gesundheit Sonstige</label>
+            </value>
+            <value>
+                <fullName>Messen</fullName>
+                <default>false</default>
+                <label>Messen</label>
+            </value>
+            <value>
+                <fullName>Ministerien</fullName>
+                <default>false</default>
+                <label>Ministerien</label>
+            </value>
+            <value>
+                <fullName>Möbelhäuser</fullName>
+                <default>false</default>
+                <label>Möbelhäuser</label>
+            </value>
+            <value>
+                <fullName>Museen / Theater / Kulturevents</fullName>
+                <default>false</default>
+                <label>Museen / Theater / Kulturevents</label>
+            </value>
+            <value>
+                <fullName>Notare</fullName>
+                <default>false</default>
+                <label>Notare</label>
+            </value>
+            <value>
+                <fullName>Öffentliche Hochschule</fullName>
+                <default>false</default>
+                <label>Öffentliche Hochschule</label>
+            </value>
+            <value>
+                <fullName>Öffentliche Schule</fullName>
+                <default>false</default>
+                <label>Öffentliche Schule</label>
+            </value>
+            <value>
+                <fullName>Öffentlichkeit Sonstige</fullName>
+                <default>false</default>
+                <label>Öffentlichkeit Sonstige</label>
+            </value>
+            <value>
+                <fullName>Optiker</fullName>
+                <default>false</default>
+                <label>Optiker</label>
+            </value>
+            <value>
+                <fullName>Parfümerie</fullName>
+                <default>false</default>
+                <label>Parfümerie</label>
+            </value>
+            <value>
+                <fullName>Parkhäuser</fullName>
+                <default>false</default>
+                <label>Parkhäuser</label>
+            </value>
+            <value>
+                <fullName>Parteien</fullName>
+                <default>false</default>
+                <label>Parteien</label>
+            </value>
+            <value>
+                <fullName>Personaldienstleistung</fullName>
+                <default>false</default>
+                <label>Personaldienstleistung</label>
+            </value>
+            <value>
+                <fullName>Pflegedienste / Betreuung</fullName>
+                <default>false</default>
+                <label>Pflegedienste / Betreuung</label>
+            </value>
+            <value>
+                <fullName>Pflegeheim</fullName>
+                <default>false</default>
+                <label>Pflegeheim</label>
+            </value>
+            <value>
+                <fullName>Private Bildungseinrichtung</fullName>
+                <default>false</default>
+                <label>Private Bildungseinrichtung</label>
+            </value>
+            <value>
+                <fullName>Private Klinken / Schönheitschirugie</fullName>
+                <default>false</default>
+                <label>Private Klinken / Schönheitschirugie</label>
+            </value>
+            <value>
+                <fullName>Produzierende Industrie Sonstige</fullName>
+                <default>false</default>
+                <label>Produzierende Industrie Sonstige</label>
+            </value>
+            <value>
+                <fullName>Radio</fullName>
+                <default>false</default>
+                <label>Radio</label>
+            </value>
+            <value>
+                <fullName>Recht Sonstige</fullName>
+                <default>false</default>
+                <label>Recht Sonstige</label>
+            </value>
+            <value>
+                <fullName>Reiseanbieter</fullName>
+                <default>false</default>
+                <label>Reiseanbieter</label>
+            </value>
+            <value>
+                <fullName>Reparatur &amp; Sicherheit</fullName>
+                <default>false</default>
+                <label>Reparatur &amp; Sicherheit</label>
+            </value>
+            <value>
+                <fullName>Schulen Sonstige</fullName>
+                <default>false</default>
+                <label>Schulen Sonstige</label>
+            </value>
+            <value>
+                <fullName>Sicherheit / Detektei</fullName>
+                <default>false</default>
+                <label>Sicherheit / Detektei</label>
+            </value>
+            <value>
+                <fullName>Softwarehersteller</fullName>
+                <default>false</default>
+                <label>Softwarehersteller</label>
+            </value>
+            <value>
+                <fullName>Sparkassen</fullName>
+                <default>false</default>
+                <label>Sparkassen</label>
+            </value>
+            <value>
+                <fullName>Spezialagentur</fullName>
+                <default>false</default>
+                <label>Spezialagentur</label>
+            </value>
+            <value>
+                <fullName>Sportvereine</fullName>
+                <default>false</default>
+                <label>Sportvereine</label>
+            </value>
+            <value>
+                <fullName>Stadmartketing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stadmartketing</label>
+            </value>
+            <value>
+                <fullName>Stadtmarketing</fullName>
+                <default>false</default>
+                <label>Stadtmarketing</label>
+            </value>
+            <value>
+                <fullName>Stadtwerke</fullName>
+                <default>false</default>
+                <label>Stadtwerke</label>
+            </value>
+            <value>
+                <fullName>Ströer</fullName>
+                <default>false</default>
+                <label>Ströer</label>
+            </value>
+            <value>
+                <fullName>Systemgastronomie</fullName>
+                <default>false</default>
+                <label>Systemgastronomie</label>
+            </value>
+            <value>
+                <fullName>Telekommunikation</fullName>
+                <default>false</default>
+                <label>Telekommunikation</label>
+            </value>
+            <value>
+                <fullName>Textilhandel</fullName>
+                <default>false</default>
+                <label>Textilhandel</label>
+            </value>
+            <value>
+                <fullName>Therapeuten</fullName>
+                <default>false</default>
+                <label>Therapeuten</label>
+            </value>
+            <value>
+                <fullName>Tierärzte</fullName>
+                <default>false</default>
+                <label>Tierärzte</label>
+            </value>
+            <value>
+                <fullName>Töchterfirmen</fullName>
+                <default>false</default>
+                <label>Töchterfirmen</label>
+            </value>
+            <value>
+                <fullName>Tourismus Sonstige</fullName>
+                <default>false</default>
+                <label>Tourismus Sonstige</label>
+            </value>
+            <value>
+                <fullName>Transport / Logistik Sonstige</fullName>
+                <default>false</default>
+                <label>Transport / Logistik Sonstige</label>
+            </value>
+            <value>
+                <fullName>Umzug / Entrümpelung</fullName>
+                <default>false</default>
+                <label>Umzug / Entrümpelung</label>
+            </value>
+            <value>
+                <fullName>Unternehmensberatung</fullName>
+                <default>false</default>
+                <label>Unternehmensberatung</label>
+            </value>
+            <value>
+                <fullName>Verbände</fullName>
+                <default>false</default>
+                <label>Verbände</label>
+            </value>
+            <value>
+                <fullName>Vereine (nicht Sport)</fullName>
+                <default>false</default>
+                <label>Vereine (nicht Sport)</label>
+            </value>
+            <value>
+                <fullName>Verkehrsbetriebe</fullName>
+                <default>false</default>
+                <label>Verkehrsbetriebe</label>
+            </value>
+            <value>
+                <fullName>Vermögensverwaltung / -beratung</fullName>
+                <default>false</default>
+                <label>Vermögensverwaltung / -beratung</label>
+            </value>
+            <value>
+                <fullName>Versandhandel</fullName>
+                <default>false</default>
+                <label>Versandhandel</label>
+            </value>
+            <value>
+                <fullName>Versicherung</fullName>
+                <default>false</default>
+                <label>Versicherung</label>
+            </value>
+            <value>
+                <fullName>Volksbanken</fullName>
+                <default>false</default>
+                <label>Volksbanken</label>
+            </value>
+            <value>
+                <fullName>Werbeagentur</fullName>
+                <default>false</default>
+                <label>Werbeagentur</label>
+            </value>
+            <value>
+                <fullName>Werkstätten</fullName>
+                <default>false</default>
+                <label>Werkstätten</label>
+            </value>
+            <value>
+                <fullName>Zeitung</fullName>
+                <default>false</default>
+                <label>Zeitung</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Lokale Medien</controllingFieldValue>
+            <valueName>Radio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lokale Medien</controllingFieldValue>
+            <valueName>Zeitung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medizin / Gesundheit</controllingFieldValue>
+            <valueName>Apotheken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medizin / Gesundheit</controllingFieldValue>
+            <valueName>Ärzte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medizin / Gesundheit</controllingFieldValue>
+            <valueName>Krankenhäuser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medizin / Gesundheit</controllingFieldValue>
+            <valueName>Medizin / Gesundheit Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medizin / Gesundheit</controllingFieldValue>
+            <valueName>Private Klinken / Schönheitschirugie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medizin / Gesundheit</controllingFieldValue>
+            <valueName>Therapeuten</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medizin / Gesundheit</controllingFieldValue>
+            <valueName>Tierärzte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Behörden / Verwaltung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Caritative Organisationen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Energieversorger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Kindertagesstätten / Kindergärten</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Kirchen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Kultur Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Messen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Ministerien</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Museen / Theater / Kulturevents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Öffentlichkeit Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Parkhäuser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Parteien</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Pflegeheim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Stadtmarketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Stadtwerke</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Verbände</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Öffentlichkeit</controllingFieldValue>
+            <valueName>Verkehrsbetriebe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Produzierende Industrie</controllingFieldValue>
+            <valueName>Produzierende Industrie Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recht</controllingFieldValue>
+            <valueName>Anwälte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recht</controllingFieldValue>
+            <valueName>Gutachter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recht</controllingFieldValue>
+            <valueName>Notare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recht</controllingFieldValue>
+            <valueName>Recht Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tourismus</controllingFieldValue>
+            <valueName>Fluggesellschaften</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tourismus</controllingFieldValue>
+            <valueName>Hotels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tourismus</controllingFieldValue>
+            <valueName>Reiseanbieter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tourismus</controllingFieldValue>
+            <valueName>Tourismus Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transport / Logistik</controllingFieldValue>
+            <valueName>Kurier / Taxi / Chauffeur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transport / Logistik</controllingFieldValue>
+            <valueName>Logistik / Transportunternehmen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transport / Logistik</controllingFieldValue>
+            <valueName>Transport / Logistik Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transport / Logistik</controllingFieldValue>
+            <valueName>Umzug / Entrümpelung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ströer-Branchen</controllingFieldValue>
+            <valueName>Druckereien</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ströer-Branchen</controllingFieldValue>
+            <valueName>Handelsvertreter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ströer-Branchen</controllingFieldValue>
+            <valueName>Ströer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ströer-Branchen</controllingFieldValue>
+            <valueName>Töchterfirmen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agenturen</controllingFieldValue>
+            <valueName>Agentur Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agenturen</controllingFieldValue>
+            <valueName>Event- / Künstler-Agenturen / Veranstalter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agenturen</controllingFieldValue>
+            <valueName>Spezialagentur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agenturen</controllingFieldValue>
+            <valueName>Werbeagentur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bank / Finanzdienstleistung / Versicherung</controllingFieldValue>
+            <valueName>Banken Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bank / Finanzdienstleistung / Versicherung</controllingFieldValue>
+            <valueName>Finanzdienstleistung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bank / Finanzdienstleistung / Versicherung</controllingFieldValue>
+            <valueName>Sparkassen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bank / Finanzdienstleistung / Versicherung</controllingFieldValue>
+            <valueName>Vermögensverwaltung / -beratung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bank / Finanzdienstleistung / Versicherung</controllingFieldValue>
+            <valueName>Versicherung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bank / Finanzdienstleistung / Versicherung</controllingFieldValue>
+            <valueName>Volksbanken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beauty / Kosmetik / Wellness</controllingFieldValue>
+            <valueName>Beauty / Kosmetik / Wellness Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beauty / Kosmetik / Wellness</controllingFieldValue>
+            <valueName>Kosmetikinstitute / Spa / Friseurketten</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bildung</controllingFieldValue>
+            <valueName>Öffentliche Hochschule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bildung</controllingFieldValue>
+            <valueName>Öffentliche Schule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bildung</controllingFieldValue>
+            <valueName>Private Bildungseinrichtung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bildung</controllingFieldValue>
+            <valueName>Schulen Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Architektur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Bauträger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Beratung / Coaching</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Bestattung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Dienstleistung Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Entsorgungsbetriebe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Erotik</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Handwerk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Hausverwaltung / Hausservices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Immobilien</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Innenreinigung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Jobportale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Kanal- / Rohrreinigung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Personaldienstleistung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Pflegedienste / Betreuung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Sicherheit / Detektei</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dienstleistung</controllingFieldValue>
+            <valueName>Unternehmensberatung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elektronik / IT</controllingFieldValue>
+            <valueName>Elektronik / IT Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elektronik / IT</controllingFieldValue>
+            <valueName>Gaming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elektronik / IT</controllingFieldValue>
+            <valueName>Hardwarehersteller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elektronik / IT</controllingFieldValue>
+            <valueName>Reparatur &amp; Sicherheit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elektronik / IT</controllingFieldValue>
+            <valueName>Softwarehersteller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elektronik / IT</controllingFieldValue>
+            <valueName>Telekommunikation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Freizeit</controllingFieldValue>
+            <valueName>Bars / Diskotheken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Freizeit</controllingFieldValue>
+            <valueName>Fitnessstudio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Freizeit</controllingFieldValue>
+            <valueName>Freizeit Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Freizeit</controllingFieldValue>
+            <valueName>Kino</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Freizeit</controllingFieldValue>
+            <valueName>Sportvereine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Freizeit</controllingFieldValue>
+            <valueName>Vereine (nicht Sport)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gastronomie</controllingFieldValue>
+            <valueName>Catering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gastronomie</controllingFieldValue>
+            <valueName>Einzelgastronomie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gastronomie</controllingFieldValue>
+            <valueName>Gastronomie Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gastronomie</controllingFieldValue>
+            <valueName>Imbiss</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gastronomie</controllingFieldValue>
+            <valueName>Lieferdienste</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gastronomie</controllingFieldValue>
+            <valueName>Systemgastronomie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handel / Einkauf</controllingFieldValue>
+            <valueName>Baumärkte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handel / Einkauf</controllingFieldValue>
+            <valueName>Brauerei / Getränkehersteller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handel / Einkauf</controllingFieldValue>
+            <valueName>Drogerie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handel / Einkauf</controllingFieldValue>
+            <valueName>Einkaufszentrum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handel / Einkauf</controllingFieldValue>
+            <valueName>Elektronik- / IT-Märkte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handel / Einkauf</controllingFieldValue>
+            <valueName>Handel Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handel / Einkauf</controllingFieldValue>
+            <valueName>Küchenstudio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handel / Einkauf</controllingFieldValue>
+            <valueName>Lebensmitteleinzelhandel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handel / Einkauf</controllingFieldValue>
+            <valueName>Möbelhäuser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handel / Einkauf</controllingFieldValue>
+            <valueName>Optiker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handel / Einkauf</controllingFieldValue>
+            <valueName>Parfümerie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handel / Einkauf</controllingFieldValue>
+            <valueName>Textilhandel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handel / Einkauf</controllingFieldValue>
+            <valueName>Versandhandel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KFZ</controllingFieldValue>
+            <valueName>Abschleppdienst</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KFZ</controllingFieldValue>
+            <valueName>Autohaus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KFZ</controllingFieldValue>
+            <valueName>Autohersteller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KFZ</controllingFieldValue>
+            <valueName>Autovermietung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KFZ</controllingFieldValue>
+            <valueName>Gebrauchtwagenhandel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KFZ</controllingFieldValue>
+            <valueName>KFZ Sonstige</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KFZ</controllingFieldValue>
+            <valueName>Werkstätten</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

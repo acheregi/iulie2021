@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CLGrundAblehnungNeuanlageAenderungCS1CS2__c</fullName>
+    <externalId>false</externalId>
+    <label>Grund der Ablehnung  Neuanlage/Änderung</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allgemeiner Fehler</fullName>
+                <default>false</default>
+                <label>Allgemeiner Fehler</label>
+            </value>
+            <value>
+                <fullName>CRM Fehler</fullName>
+                <default>false</default>
+                <label>CRM Fehler</label>
+            </value>
+            <value>
+                <fullName>CRM-Clearingstelle kontakten</fullName>
+                <default>false</default>
+                <label>CRM-Clearingstelle kontakten</label>
+            </value>
+            <value>
+                <fullName>Dublette</fullName>
+                <default>false</default>
+                <label>Dublette</label>
+            </value>
+            <value>
+                <fullName>Falsche Adresse</fullName>
+                <default>false</default>
+                <label>Falsche Adresse</label>
+            </value>
+            <value>
+                <fullName>Fehler im Adress-Segment</fullName>
+                <default>false</default>
+                <label>Fehler im Adress-Segment</label>
+            </value>
+            <value>
+                <fullName>Fehler im Bankdatensegment</fullName>
+                <default>false</default>
+                <label>Fehler im Bankdatensegment</label>
+            </value>
+            <value>
+                <fullName>Fehler im Vertriebsdatensegmen</fullName>
+                <default>false</default>
+                <label>Fehler im Vertriebsdatensegmen</label>
+            </value>
+            <value>
+                <fullName>FIGrund der Ablehnung Neuanlage/-nderung CS1/CS2</fullName>
+                <default>false</default>
+                <label>FIGrund der Ablehnung Neuanlage/-nderung CS1/CS2</label>
+            </value>
+            <value>
+                <fullName>Grund 27</fullName>
+                <default>false</default>
+                <label>Grund 27</label>
+            </value>
+            <value>
+                <fullName>SAP-Clearingstelle kontakten</fullName>
+                <default>false</default>
+                <label>SAP-Clearingstelle kontakten</label>
+            </value>
+            <value>
+                <fullName>Sonstiges</fullName>
+                <default>false</default>
+                <label>Sonstiges</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

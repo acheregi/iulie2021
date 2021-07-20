@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_Importinfo1__c</fullName>
+    <description>Das Feld dient lediglich zum Import von Kezis für eine Selektion / einen Export.</description>
+    <externalId>false</externalId>
+    <label>Importinfo1</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

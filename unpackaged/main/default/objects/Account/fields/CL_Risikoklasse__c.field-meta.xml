@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_Risikoklasse__c</fullName>
+    <externalId>false</externalId>
+    <label>Risikoklasse</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>beobachten</fullName>
+                <default>false</default>
+                <label>beobachten</label>
+            </value>
+            <value>
+                <fullName>nicht kreditwürdig</fullName>
+                <default>false</default>
+                <label>nicht kreditwürdig</label>
+            </value>
+            <value>
+                <fullName>Risikoklasse 001</fullName>
+                <default>false</default>
+                <label>Risikoklasse 001</label>
+            </value>
+            <value>
+                <fullName>sehr kritisch</fullName>
+                <default>false</default>
+                <label>sehr kritisch</label>
+            </value>
+            <value>
+                <fullName>unkritisch</fullName>
+                <default>false</default>
+                <label>unkritisch</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

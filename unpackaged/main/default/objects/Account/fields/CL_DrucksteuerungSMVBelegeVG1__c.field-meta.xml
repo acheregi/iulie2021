@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_DrucksteuerungSMVBelegeVG1__c</fullName>
+    <externalId>false</externalId>
+    <label>Drucksteuerung SMV Belege  (VG1)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ohne Gültigkeit</fullName>
+                <default>true</default>
+                <label>ohne Gültigkeit</label>
+            </value>
+            <value>
+                <fullName>pro Kunde 1 SMV</fullName>
+                <default>false</default>
+                <label>pro Kunde 1 SMV</label>
+            </value>
+            <value>
+                <fullName>pro Produkt 1 SMV</fullName>
+                <default>false</default>
+                <label>pro Produkt 1 SMV</label>
+            </value>
+            <value>
+                <fullName>pro Rechnungsnummer 1 SMV</fullName>
+                <default>false</default>
+                <label>pro Rechnungsnummer 1 SMV</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

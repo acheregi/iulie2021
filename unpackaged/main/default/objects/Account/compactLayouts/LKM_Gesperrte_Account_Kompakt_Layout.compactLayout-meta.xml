@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_Gesperrte_Account_Kompakt_Layout</fullName>
+    <fields>Name</fields>
+    <fields>CL_VISID__c</fields>
+    <fields>CL_DebitorenNr__c</fields>
+    <fields>CL_ZurBearbeitungGesperrt__c</fields>
+    <fields>CL_Sperrgrund__c</fields>
+    <fields>CL_Hauptaccount__c</fields>
+    <label>LKM Gesperrte Account Kompakt Layout</label>
+</CompactLayout>

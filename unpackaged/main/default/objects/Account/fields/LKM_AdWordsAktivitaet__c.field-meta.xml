@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_AdWordsAktivitaet__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Der Partner macht bereits AdWords (zum Zeitpunkt der Recherche)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Zeigt an, ob der Kunde mit AdWords am Markt aktiv ist</inlineHelpText>
+    <label>AdWords-Aktivität</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

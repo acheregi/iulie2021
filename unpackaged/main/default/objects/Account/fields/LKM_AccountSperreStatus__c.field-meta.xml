@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_AccountSperreStatus__c</fullName>
+    <description>steckt im Helperfeld drin:
+IF(
+OR(
+LKM_KundenKontaktsperre__c, and(CL_Auftragssperre__c,not(ispickval(CL_AuftragssperreGrund__c ,&quot;Inaktiv&quot;)) ), CL_Fakturasperre__c, CL_ZurBearbeitungGesperrt__c)),
+IMAGE(&quot;/sfc/servlet.shepherd/version/download/0691r000007XlP1&quot;, &quot;Gesperrt&quot;, 30, 30), 
+IMAGE(&quot;/sfc/servlet.shepherd/version/download/0691r000007XlOz&quot;, &quot;Nicht Gesperrt&quot;, 30, 30))
+
+https://stroeer-eins.lightning.force.com/lightning/o/ContentDocument/home</description>
+    <externalId>false</externalId>
+    <formula>IF(
+Account_Sperre_Status_Helper__c ,
+IMAGE(&quot;https://stroeer-eins--c.eu12.content.force.com/sfc/servlet.shepherd/version/download/0681r000007ExNh&quot;, &quot;Gesperrt&quot;, 30, 30), 
+IMAGE(&quot;https://stroeer-eins--c.eu12.content.force.com/sfc/servlet.shepherd/version/download/0681r000007ExNf&quot;, &quot;Nicht Gesperrt&quot;, 30, 30))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account Sperre Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kein_Betreuungsbedarf_muss_ausgefuellt</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(Betreuungsbedarf__c, &quot;Kein Betreuungsbedarf&quot;),
+				ISPICKVAL(Gr_nde_keine_Betreuung__c,&quot;&quot;))</errorConditionFormula>
+    <errorMessage>Bei &quot;Kein Betreuungsbedarf&quot; darf das Feld Gründe keine Betreuung nicht leer sein.</errorMessage>
+</ValidationRule>

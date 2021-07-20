@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gruende_keine_Betreuung</fullName>
+    <active>true</active>
+    <description>Sollte man unter „Gründe keine Betreuung“ -&gt; „Gehört zu übergeordneter Account“ auswählen, sollte im Hintergrund gecheckt werden ob auch ein übergeordneter Account hinterlegt ist. SL-409</description>
+    <errorConditionFormula>AND(ISPICKVAL(Gr_nde_keine_Betreuung__c, &quot;Gehört zu übergeordnetem Account&quot;), ISBLANK(ParentId))</errorConditionFormula>
+    <errorMessage>Bitte übergeordneten Account hinterlegen</errorMessage>
+</ValidationRule>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_VISRecordID__c</fullName>
+    <description>enthält die vollständige Record ID :   diese bekommt ihr bei einem Insert zurück, kann auch für ein späteres Update verwendet werden. Das ist der eindeutige Schlüssel mit dem immer gearbeitet werden kann
+·        &lt;StationsNr&gt;-&lt;FirmenNr&gt;: ebenfalls der eindeutige Schlüssel in VIS (die User arbeiten aber normal nicht mit der Stationsnummer). Die 2 Werte können aus der RecordId berechnet werden
+
+o   StationsNr = Math.Floor(RecordId / 2^32)
+
+o   FirmenNr = RecordId – (2^32 * StationsNr)
+
+o   Z.B. RecordId = 8589934956099
+
+§  8589934956099 / 2^32 = 2000,0000847734045237302780151367 = 2000
+
+§  8589934956099 – (2^32 * 2000) = 8589934956099  - 8589934592000 = 364099</description>
+    <externalId>false</externalId>
+    <label>VIS_RecordID</label>
+    <length>20</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

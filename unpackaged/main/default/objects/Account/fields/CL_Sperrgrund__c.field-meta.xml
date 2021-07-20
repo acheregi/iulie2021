@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_Sperrgrund__c</fullName>
+    <externalId>false</externalId>
+    <label>Sperrgrund</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Abrechnung</fullName>
+                <default>false</default>
+                <label>Abrechnung</label>
+            </value>
+            <value>
+                <fullName>Datenbereinigung</fullName>
+                <default>false</default>
+                <label>Datenbereinigung</label>
+            </value>
+            <value>
+                <fullName>Dublette</fullName>
+                <default>false</default>
+                <label>Dublette</label>
+            </value>
+            <value>
+                <fullName>Geschäftsauflösung</fullName>
+                <default>false</default>
+                <label>Geschäftsauflösung</label>
+            </value>
+            <value>
+                <fullName>Konzerndebitor</fullName>
+                <default>false</default>
+                <label>Konzerndebitor</label>
+            </value>
+            <value>
+                <fullName>Out-of-Business</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Out-of-Business</label>
+            </value>
+            <value>
+                <fullName>Reporting (muss noch geklärt werden)</fullName>
+                <default>false</default>
+                <label>Reporting (muss noch geklärt werden)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

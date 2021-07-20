@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gr_nde_keine_Betreuung__c</fullName>
+    <externalId>false</externalId>
+    <label>Gründe keine Betreuung</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Betreuungsbedarf__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Einmalbuchung/einmalige Veranstaltung</fullName>
+                <default>false</default>
+                <label>Einmalbuchung/einmalige Veranstaltung</label>
+            </value>
+            <value>
+                <fullName>Insolvenz/keine Wirtschaftlichkeit gegeben</fullName>
+                <default>false</default>
+                <label>Insolvenz/keine Wirtschaftlichkeit gegeben</label>
+            </value>
+            <value>
+                <fullName>Gehört zu übergeordnetem Account</fullName>
+                <default>false</default>
+                <label>Gehört zu übergeordnetem Account</label>
+            </value>
+            <value>
+                <fullName>Sonstige</fullName>
+                <default>false</default>
+                <label>Sonstige</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Kein Betreuungsbedarf</controllingFieldValue>
+            <valueName>Einmalbuchung/einmalige Veranstaltung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kein Betreuungsbedarf</controllingFieldValue>
+            <valueName>Insolvenz/keine Wirtschaftlichkeit gegeben</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kein Betreuungsbedarf</controllingFieldValue>
+            <valueName>Gehört zu übergeordnetem Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kein Betreuungsbedarf</controllingFieldValue>
+            <valueName>Sonstige</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

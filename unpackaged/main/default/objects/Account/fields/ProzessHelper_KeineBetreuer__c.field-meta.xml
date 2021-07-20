@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProzessHelper_KeineBetreuer__c</fullName>
+    <description>ProzessHelper_KeineBetreuer - Feld für Bericht Accounts ohne Betreuer</description>
+    <externalId>false</externalId>
+    <label>ProzessHelper_KeineBetreuer</label>
+    <summaryForeignKey>Betreuer__c.CL_Account__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

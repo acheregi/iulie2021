@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_BeiKontaktsperreAuchGrundUndGesells</fullName>
+    <active>true</active>
+    <description>Bei einer Kontaktsperre muss auch ein Kontaktsperre Grund und eine Kontaktsperre Gesellschaft hinterlegt sein</description>
+    <errorConditionFormula>AND
+
+( LKM_KundenKontaktsperre__c =True,
+$Profile.Id  &lt;&gt; &quot;00e1r0000013NHK&quot;,
+$User.Migration_User__c =FALSE,
+ISPICKVAL( LKM_KundenKontaktsperreGrund__c, &quot;&quot;) 
+ || 
+ISNULL(LKM_KundenKontaktsperreGesellschaft__c))</errorConditionFormula>
+    <errorMessage>Bitte auch einen Kontaktsperre Grund und eine Kontaktsperre Gesellschaft hinerlegen</errorMessage>
+</ValidationRule>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_StatusRGEmail__c</fullName>
+    <externalId>false</externalId>
+    <label>Status RG-Email</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>angefragt</fullName>
+                <default>false</default>
+                <label>angefragt</label>
+            </value>
+            <value>
+                <fullName>falsche Email</fullName>
+                <default>false</default>
+                <label>falsche Email</label>
+            </value>
+            <value>
+                <fullName>keine RG per Email</fullName>
+                <default>false</default>
+                <label>keine RG per Email</label>
+            </value>
+            <value>
+                <fullName>RG per Email</fullName>
+                <default>false</default>
+                <label>RG per Email</label>
+            </value>
+            <value>
+                <fullName>bucht über Agentur</fullName>
+                <default>false</default>
+                <label>bucht über Agentur</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

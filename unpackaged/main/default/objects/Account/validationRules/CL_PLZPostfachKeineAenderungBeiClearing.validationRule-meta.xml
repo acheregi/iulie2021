@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_PLZPostfachKeineAenderungBeiClearing</fullName>
+    <active>true</active>
+    <description>die Felder Account.Name1…Name4,  Billing Address, Detail-Typ , Postfach, PLZ-Postfach dürfen während eines laufenden Clearing Prozesses nicht geändert werden</description>
+    <errorConditionFormula>AND(ischanged(  CL_PLZPostfach__c  ),  
+$Profile.Id  &lt;&gt; &quot;00e1r0000013NHK&quot;,
+OR(CL_CS1InBearbeitung__c , CL_CS2InBearbeitung__c ),
+$User.Migration_User__c =false,$User.CL_Clearing_oder_Admin_User__c =false)</errorConditionFormula>
+    <errorDisplayField>CL_PLZPostfach__c</errorDisplayField>
+    <errorMessage>die Felder Account.Name1…Name4,  Rechnungs Adresse, Detail-Typ , Postfach, PLZ-Postfach dürfen während eines laufenden Clearing Prozesses nicht geändert werden</errorMessage>
+</ValidationRule>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_FakturasperreGrund__c</fullName>
+    <externalId>false</externalId>
+    <label>Fakturasperre Grund</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>***Kalkulation fehlt</fullName>
+                <default>false</default>
+                <label>***Kalkulation fehlt</label>
+            </value>
+            <value>
+                <fullName>***Rückmeldung fehlt</fullName>
+                <default>false</default>
+                <label>***Rückmeldung fehlt</label>
+            </value>
+            <value>
+                <fullName>*** Preise unvollst.</fullName>
+                <default>false</default>
+                <label>*** Preise unvollst.</label>
+            </value>
+            <value>
+                <fullName>***Zahlungsbed. prüf</fullName>
+                <default>false</default>
+                <label>***Zahlungsbed. prüf</label>
+            </value>
+            <value>
+                <fullName>***Lieferbeding prüf</fullName>
+                <default>false</default>
+                <label>***Lieferbeding prüf</label>
+            </value>
+            <value>
+                <fullName>*** Gutschrift prüf</fullName>
+                <default>false</default>
+                <label>*** Gutschrift prüf</label>
+            </value>
+            <value>
+                <fullName>*** Lastschrift prüf</fullName>
+                <default>false</default>
+                <label>*** Lastschrift prüf</label>
+            </value>
+            <value>
+                <fullName>Nicht fakturieren</fullName>
+                <default>false</default>
+                <label>Nicht fakturieren</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

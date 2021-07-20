@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_NationalerBetreuerRollupHelper__c</fullName>
+    <externalId>false</externalId>
+    <label>Nationaler Betreuer Rollup Helper</label>
+    <summaryFilterItems>
+        <field>Betreuer__c.CL_Betreuungsrolle__c</field>
+        <operation>equals</operation>
+        <value>Nationaler Vertrieb - Client Sales, Nationaler Vertrieb - Agency Sales</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Betreuer__c.CL_Account__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

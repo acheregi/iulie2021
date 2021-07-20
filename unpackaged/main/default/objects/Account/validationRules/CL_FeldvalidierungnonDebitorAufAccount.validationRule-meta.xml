@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_FeldvalidierungnonDebitorAufAccount</fullName>
+    <active>true</active>
+    <description>nur bei Debitoren dürfen die VG1 Felder ausgefüllt sein</description>
+    <errorConditionFormula>OR( 
+not(ISPICKVAL(CL_VertriebsgesellschaftVG1__c, &quot;&quot;)), 
+not(ISPICKVAL(CL_ZahlungskonditionenVG1__c, &quot;&quot;)),  
+not(ISBLANK(CL_GeplAuftragsvolumenVG1__c))
+) 
+&amp;&amp; 
+and(
+NOT(ISPICKVAL( CL_Firmenstatus__c, &quot;Debitor Kunde&quot;)),
+NOT(ISPICKVAL( CL_Firmenstatus__c, &quot;Konzerndebitor&quot;))
+)
+/* Ausnahmen  u.a. Integration Profil, sowie Clearing oder Admin User oder aus SF2 kommende Datensätze*/
+&amp;&amp;
+CL_HelperDebitorenNeuAnlageausSF2__c =False
+&amp;&amp;
+$Profile.Id  &lt;&gt; &quot;00e1r0000013NHK&quot;  /*Integration Profil*/
+&amp;&amp;
+ $User.CL_Clearing_oder_Admin_User__c = False</errorConditionFormula>
+    <errorDisplayField>CL_VertriebsgesellschaftVG1__c</errorDisplayField>
+    <errorMessage>Nur bei Debitoren dürfen die Felder 
+Zahlungskonditionen (VG1), Vertriebsgesellschaft (VG1), Drucksteuerung (VG1) und Gepl. Auftragsvolumen ausgefüllt sein. Bitte Inhalte löschen.</errorMessage>
+</ValidationRule>

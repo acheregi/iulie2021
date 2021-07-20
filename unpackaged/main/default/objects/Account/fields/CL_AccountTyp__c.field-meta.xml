@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_AccountTyp__c</fullName>
+    <externalId>false</externalId>
+    <formula>if ( 
+OR ( 
+TEXT (Type) = &quot;Agentur&quot;, 
+TEXT (Type) = &quot;Klass. Agentur: Kreativ&quot; , 
+TEXT (Type) = &quot;Klass. Agentur: Media Einkauf&quot;, 
+ISPICKVAL (Type ,&quot;Klass. Agentur: Mediaplanung&quot;) , 
+TEXT (Type) = &quot;Klass. Agentur: Mediaplanung&quot;, 
+TEXT (Type) = &quot;Online Agentur: Kreativ&quot;, 
+TEXT (Type)= &quot;Online Agentur: Media Einkauf&quot;, 
+TEXT (Type)= &quot;Online Agentur: Mediaplanung&quot;, 
+TEXT (Type) = &quot;Spezial Agentur: Kreativ&quot;, 
+TEXT (Type)= &quot;Spezial Agentur: Media Einkauf&quot;, 
+TEXT (Type) = &quot;Spezial Agentur: Mediaplanung&quot; , 
+TEXT (Type) = &quot;Dialog Agentur&quot; , 
+TEXT (Type) = &quot;Event / Spons. Agentur&quot;, 
+TEXT (Type) = &quot;Performance Agentur (Wettbewerber)&quot; , 
+TEXT (Type) = &quot;Affiliate Publisher (Agentur)&quot;, 
+TEXT (Type) = &quot;FullService-Agentur&quot; , 
+TEXT (Type) = &quot;PR - Agentur&quot;, 
+TEXT (Type) = &quot;Hauptagentur&quot;, 
+TEXT (Type) = &quot;Einkaufsgemeinschaft&quot;, 
+TEXT (Type) = &quot;Spezialagentur 3S&quot;, 
+TEXT (Type) = &quot;Mediaagentur 3S&quot;, 
+TEXT (Type) = &quot;Online-/Digitalagentur 3S&quot;, 
+TEXT (Type) = &quot;Spezialagentur 3S&quot; ,
+TEXT (Type) = &quot;Kreativagentur&quot;
+), 
+&quot;Agentur&quot;, 
+IF ( 
+OR( 
+TEXT (Type) = &quot;Direktkunde&quot; , 
+TEXT (Type) = &quot;Telesales&quot;, 
+TEXT (Type) = &quot;Vermarkter&quot;, 
+TEXT (Type) = &quot;SSP (Sales Side Plattform)&quot;, 
+TEXT (Type) = &quot;DSP / Trading Desk&quot;, 
+TEXT (Type) = &quot;Wettbewerber&quot;, 
+TEXT (Type) = &quot;Mediakunde (Google, Text, ...)&quot;, 
+TEXT (Type) = &quot;Konzern&quot;, 
+TEXT (Type) = &quot;Werbetreibender&quot;,
+TEXT (Type) = &quot;Werbungtreibender&quot; 
+), 
+&quot;Werbungtreibender&quot;, 
+if( 
+OR( 
+TEXT (Type) = &quot;Websitebetreiber&quot;,
+TEXT (Type) = &quot;Publisher&quot;, 
+TEXT (Type) = &quot;Publisher: Owned&quot;, 
+TEXT (Type) = &quot;Publisher: Operated&quot;, 
+TEXT (Type) = &quot;Publisher: Media-Buy&quot;, 
+TEXT (Type) = &quot;Publisher: Men&quot;, 
+TEXT (Type) = &quot;Publisher: Women&quot;, 
+TEXT (Type) = &quot;Publisher: General Interest&quot;, 
+TEXT (Type) = &quot;Broker (Publisher)&quot;, 
+TEXT (Type) = &quot;externer Dienstleister&quot;, 
+TEXT (Type) = &quot;Mandant&quot; 
+),
+&quot;Publisher&quot;, 
+&quot;Andere&quot; 
+) 
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account-Typ</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

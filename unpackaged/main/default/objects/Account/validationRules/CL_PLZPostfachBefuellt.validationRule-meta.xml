@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_PLZPostfachBefuellt</fullName>
+    <active>true</active>
+    <description>Wenn eines der Felder befuellt wird, muss auch das andere befuellt werden</description>
+    <errorConditionFormula>AND
+
+((IF(ISBLANK(CL_PLZPostfach__c) || NOT(REGEX(CL_PLZPostfach__c, &quot;[0-9]*&quot;)), true, false)),
+
+
+NOT (ISBLANK( CL_Postfach__c )),
+BillingCountry = &quot;Deutschland&quot;,
+
+$User.CL_Clearing_oder_Admin_User__c =FALSE,
+$User.Migration_User__c =FALSE,
+$Profile.Id &lt;&gt; &quot;00e1r0000013NHK&quot;)</errorConditionFormula>
+    <errorDisplayField>CL_PLZPostfach__c</errorDisplayField>
+    <errorMessage>bitte auch das Feld PLZ Postfach befüllen und keine Buchstaben oder Sonderzeichen verwenden</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_HelperDebitorenNeuAnlageausSF2__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>dient zur Umgehung der Validierung VG1 , wenn Account aus SF2 durch positives Cs1 Clearing neu angelegt wird.</description>
+    <externalId>false</externalId>
+    <label>Helper NeuAnlage aus SF2</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

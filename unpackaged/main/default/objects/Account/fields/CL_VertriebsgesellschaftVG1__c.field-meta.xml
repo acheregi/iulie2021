@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_VertriebsgesellschaftVG1__c</fullName>
+    <externalId>false</externalId>
+    <label>Vertriebsgesellschaft (VG1)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Ambient-TV Sales &amp; Servic</fullName>
+                <default>false</default>
+                <label>Ambient-TV Sales &amp; Servic</label>
+            </value>
+            <value>
+                <fullName>BlowUP Media GmbH</fullName>
+                <default>false</default>
+                <label>BlowUP Media GmbH</label>
+            </value>
+            <value>
+                <fullName>Business Advertising GmbH</fullName>
+                <default>false</default>
+                <label>Business Advertising GmbH</label>
+            </value>
+            <value>
+                <fullName>DERG Vertriebs GmbH</fullName>
+                <default>false</default>
+                <label>DERG Vertriebs GmbH</label>
+            </value>
+            <value>
+                <fullName>DSA Schuldisplay GmbH</fullName>
+                <default>false</default>
+                <label>DSA Schuldisplay GmbH</label>
+            </value>
+            <value>
+                <fullName>DSM Decaux GmbH</fullName>
+                <default>false</default>
+                <label>DSM Decaux GmbH</label>
+            </value>
+            <value>
+                <fullName>DSM DeutscheStädte-Medien</fullName>
+                <default>false</default>
+                <label>DSM DeutscheStädte-Medien</label>
+            </value>
+            <value>
+                <fullName>DSM Werbeträger GmbH &amp; Co. KG</fullName>
+                <default>false</default>
+                <label>DSM Werbeträger GmbH &amp; Co. KG</label>
+            </value>
+            <value>
+                <fullName>ECE flatmedia GmbH</fullName>
+                <default>false</default>
+                <label>ECE flatmedia GmbH</label>
+            </value>
+            <value>
+                <fullName>Edgar Ambient Media Group GmbH</fullName>
+                <default>false</default>
+                <label>Edgar Ambient Media Group GmbH</label>
+            </value>
+            <value>
+                <fullName>Grapevine Marketing GmbH</fullName>
+                <default>false</default>
+                <label>Grapevine Marketing GmbH</label>
+            </value>
+            <value>
+                <fullName>Hoffmann City Media GmbH&amp;</fullName>
+                <default>false</default>
+                <label>Hoffmann City Media GmbH&amp;</label>
+            </value>
+            <value>
+                <fullName>INFOSCREEN GmbH</fullName>
+                <default>false</default>
+                <label>INFOSCREEN GmbH</label>
+            </value>
+            <value>
+                <fullName>Interactive Media CCSP</fullName>
+                <default>false</default>
+                <label>Interactive Media CCSP</label>
+            </value>
+            <value>
+                <fullName>Lunenburg und Partner Gmb</fullName>
+                <default>false</default>
+                <label>Lunenburg und Partner Gmb</label>
+            </value>
+            <value>
+                <fullName>MBR Targeting GmbH</fullName>
+                <default>false</default>
+                <label>MBR Targeting GmbH</label>
+            </value>
+            <value>
+                <fullName>Media-Direktservice GmbH</fullName>
+                <default>false</default>
+                <label>Media-Direktservice GmbH</label>
+            </value>
+            <value>
+                <fullName>MediaSelect Media-Agentur</fullName>
+                <default>false</default>
+                <label>MediaSelect Media-Agentur</label>
+            </value>
+            <value>
+                <fullName>Neo Advertising GmbH</fullName>
+                <default>false</default>
+                <label>Neo Advertising GmbH</label>
+            </value>
+            <value>
+                <fullName>Omnea GmbH</fullName>
+                <default>false</default>
+                <label>Omnea GmbH</label>
+            </value>
+            <value>
+                <fullName>Outsite Media GmbH</fullName>
+                <default>false</default>
+                <label>Outsite Media GmbH</label>
+            </value>
+            <value>
+                <fullName>PosterSelect Media-Agent.</fullName>
+                <default>false</default>
+                <label>PosterSelect Media-Agent.</label>
+            </value>
+            <value>
+                <fullName>RegioHelden GmbH</fullName>
+                <default>false</default>
+                <label>RegioHelden GmbH</label>
+            </value>
+            <value>
+                <fullName>Retail Media GmbH</fullName>
+                <default>false</default>
+                <label>Retail Media GmbH</label>
+            </value>
+            <value>
+                <fullName>Seeding Alliance GmbH</fullName>
+                <default>false</default>
+                <label>Seeding Alliance GmbH</label>
+            </value>
+            <value>
+                <fullName>SIGN YOU mediascreen GmbH</fullName>
+                <default>false</default>
+                <label>SIGN YOU mediascreen GmbH</label>
+            </value>
+            <value>
+                <fullName>SMD Werbeträger GmbH &amp; Co. KG</fullName>
+                <default>false</default>
+                <label>SMD Werbeträger GmbH &amp; Co. KG</label>
+            </value>
+            <value>
+                <fullName>SRG Werbeträger GmbH &amp; Co. KG</fullName>
+                <default>false</default>
+                <label>SRG Werbeträger GmbH &amp; Co. KG</label>
+            </value>
+            <value>
+                <fullName>Ströer Aussenwerbung GmbH</fullName>
+                <default>false</default>
+                <label>Ströer Aussenwerbung GmbH</label>
+            </value>
+            <value>
+                <fullName>Ströer Content Group</fullName>
+                <default>false</default>
+                <label>Ströer Content Group</label>
+            </value>
+            <value>
+                <fullName>Ströer Content Group Sales GmbH</fullName>
+                <default>false</default>
+                <label>Ströer Content Group Sales GmbH</label>
+            </value>
+            <value>
+                <fullName>Ströer Core GmbH &amp; Co. KG</fullName>
+                <default>false</default>
+                <label>Ströer Core GmbH &amp; Co. KG_T1</label>
+            </value>
+            <value>
+                <fullName>Ströer DERG Media GmbH</fullName>
+                <default>false</default>
+                <label>Ströer DERG Media GmbH</label>
+            </value>
+            <value>
+                <fullName>StröerDeutscheStädteMedie</fullName>
+                <default>false</default>
+                <label>StröerDeutscheStädteMedie_69</label>
+            </value>
+            <value>
+                <fullName>Ströer Digital Commerce</fullName>
+                <default>false</default>
+                <label>Ströer Digital Commerce</label>
+            </value>
+            <value>
+                <fullName>Ströer Digital Group GmbH</fullName>
+                <default>false</default>
+                <label>Ströer Digital Group GmbH</label>
+            </value>
+            <value>
+                <fullName>Ströer Digital Media GmbH</fullName>
+                <default>false</default>
+                <label>Ströer Digital Media GmbH</label>
+            </value>
+            <value>
+                <fullName>Ströer Digital Publishing GmbH</fullName>
+                <default>false</default>
+                <label>Ströer Digital Publishing GmbH</label>
+            </value>
+            <value>
+                <fullName>Ströer Media Brands GmbH</fullName>
+                <default>false</default>
+                <label>Ströer Media Brands GmbH</label>
+            </value>
+            <value>
+                <fullName>Ströer Media Deutschland</fullName>
+                <default>false</default>
+                <label>Ströer Media Deutschland</label>
+            </value>
+            <value>
+                <fullName>Ströer News Publishing GmbH</fullName>
+                <default>false</default>
+                <label>Ströer News Publishing GmbH</label>
+            </value>
+            <value>
+                <fullName>Ströer Next Publishing GmbH</fullName>
+                <default>false</default>
+                <label>Ströer Next Publishing GmbH</label>
+            </value>
+            <value>
+                <fullName>Ströer Performance Group GmbH</fullName>
+                <default>false</default>
+                <label>Ströer Performance Group GmbH</label>
+            </value>
+            <value>
+                <fullName>Ströer Sales &amp; Services G</fullName>
+                <default>false</default>
+                <label>Ströer Sales &amp; Services G</label>
+            </value>
+            <value>
+                <fullName>Ströer Sales Group</fullName>
+                <default>false</default>
+                <label>Ströer Sales Group</label>
+            </value>
+            <value>
+                <fullName>Ströer SE &amp; Co. KGaA</fullName>
+                <default>false</default>
+                <label>Ströer SE &amp; Co. KGaA</label>
+            </value>
+            <value>
+                <fullName>Ströer Social Publishing</fullName>
+                <default>false</default>
+                <label>Ströer Social Publishing</label>
+            </value>
+            <value>
+                <fullName>Super M&amp;N UG</fullName>
+                <default>false</default>
+                <label>Super M&amp;N UG</label>
+            </value>
+            <value>
+                <fullName>Superposter Out-of-Home M</fullName>
+                <default>false</default>
+                <label>Superposter Out-of-Home M</label>
+            </value>
+            <value>
+                <fullName>TubeOne Networks GmbH</fullName>
+                <default>false</default>
+                <label>TubeOne Networks GmbH</label>
+            </value>
+            <value>
+                <fullName>X-City Marketing GmbH</fullName>
+                <default>false</default>
+                <label>X-City Marketing GmbH</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

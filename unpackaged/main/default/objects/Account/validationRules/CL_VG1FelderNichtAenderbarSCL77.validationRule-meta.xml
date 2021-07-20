@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_VG1FelderNichtAenderbarSCL77</fullName>
+    <active>true</active>
+    <description>nur die 1. Vertriebsgesellschaft VG1 darf über die VG1 Felder angelegt werden, alle weiteren direkt durch neues VG Record</description>
+    <errorConditionFormula>AND( CL_HelperAnzahlVG__c &gt;0,
+$Profile.Id  &lt;&gt; &quot;00e1r0000013NHK&quot;,
+ $User.CL_Clearing_oder_Admin_User__c =false,
+OR(ischanged( CL_ZahlungskonditionenVG1__c ),ischanged( CL_VertriebsgesellschaftVG1__c ),ischanged( CL_DrucksteuerungSMVBelegeVG1__c ),ischanged( CL_GeplAuftragsvolumenVG1__c )))</errorConditionFormula>
+    <errorMessage> Erste Vertriebsgesellschaft VG1 ist bereits angelegt worden. Bitte die Werte direkt im Objekt Vertriebsgesellschaft ändern.</errorMessage>
+</ValidationRule>

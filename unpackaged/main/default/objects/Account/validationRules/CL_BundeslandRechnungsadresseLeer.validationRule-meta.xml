@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_BundeslandRechnungsadresseLeer</fullName>
+    <active>true</active>
+    <description>Wegen SST zu VIS : Felder in der Anschrift / Rechnungsadresse dürfen nicht leer sein. 
+NUR Deutschland; gilt nicht für Integration und Admins</description>
+    <errorConditionFormula>AND( 
+ISBLANK(BillingState), 
+text( CL_Firmenstatus__c )&lt;&gt;&quot;Lead&quot;,
+NOT($User.ProfileId = &#39;00e1r0000013NHK&#39;), 
+NOT($User.ProfileId =&#39;00e1r000001sPO1&#39;), 
+NOT($User.ProfileId = &#39;00e8E000000MCVB&#39;), 
+$Profile.Id  &lt;&gt; &quot;00e1r0000013NHK&quot;,
+CONTAINS( BillingCountry , &quot;Deutschland&quot;)
+)
+&amp;&amp;
+$User.Migration_User__c=false</errorConditionFormula>
+    <errorMessage>Bundesland darf bei deutschen Anschriften nicht leer sein !</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRF__c</fullName>
+    <description>Creditreform-Nummer der Firma</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Creditreform-Nummer der Firma</inlineHelpText>
+    <label>CRF</label>
+    <length>10</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

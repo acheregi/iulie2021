@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nur_Debitoren</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CL_CS1InBearbeitung__c</columns>
+    <columns>CL_CS2InBearbeitung__c</columns>
+    <columns>CL_DebitorenNr__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CL_Firmenstatus__c</field>
+        <operation>equals</operation>
+        <value>Debitor Kunde</value>
+    </filters>
+    <filters>
+        <field>CL_AccountIDInSF2__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>CL_AccountIDInSF3__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Nur Debitoren</label>
+</ListView>

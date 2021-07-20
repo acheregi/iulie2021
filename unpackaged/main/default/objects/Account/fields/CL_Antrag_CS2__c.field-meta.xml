@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_Antrag_CS2__c</fullName>
+    <description>Hilfsfeld:  Rückmeldung aus SAP via SST1.2 über Zustand des CS2 Clearings</description>
+    <externalId>false</externalId>
+    <label>Antrag CS2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abgelehnt (Ändern)</fullName>
+                <default>false</default>
+                <label>Abgelehnt (Ändern)</label>
+            </value>
+            <value>
+                <fullName>Abgelehnt (Löschen)</fullName>
+                <default>false</default>
+                <label>Abgelehnt (Löschen)</label>
+            </value>
+            <value>
+                <fullName>Abgelehnt (Neu)</fullName>
+                <default>false</default>
+                <label>Abgelehnt (Neu)</label>
+            </value>
+            <value>
+                <fullName>Ändern</fullName>
+                <default>false</default>
+                <label>Ändern</label>
+            </value>
+            <value>
+                <fullName>Ändern (Vorbehalt)</fullName>
+                <default>false</default>
+                <label>Ändern (Vorbehalt)</label>
+            </value>
+            <value>
+                <fullName>Löschen</fullName>
+                <default>false</default>
+                <label>Löschen</label>
+            </value>
+            <value>
+                <fullName>Neu</fullName>
+                <default>false</default>
+                <label>Neu</label>
+            </value>
+            <value>
+                <fullName>Neu (Vorbehalt)</fullName>
+                <default>false</default>
+                <label>Neu (Vorbehalt)</label>
+            </value>
+            <value>
+                <fullName>Genehmigt</fullName>
+                <default>false</default>
+                <label>Genehmigt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

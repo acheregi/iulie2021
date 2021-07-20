@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_HelperUpgradezuDebitor__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>wird von Trigger gesetzt, wenn ein Account mit bisherigem Firmenstatus non-Debitor oder Potenzial zu Debnitor hochgestuf wird. Wird von VIS benötigt, um Datensätze zusammenhängend zu SAP zu übertragen</description>
+    <externalId>false</externalId>
+    <label>Helper Upgrade zu Debitor</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

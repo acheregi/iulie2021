@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_KundenKontaktsperreDatum__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Sperrdatum: Datum, an dem die Sperre gesetzt wurde.</inlineHelpText>
+    <label>Kunden Kontaktsperre Datum</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

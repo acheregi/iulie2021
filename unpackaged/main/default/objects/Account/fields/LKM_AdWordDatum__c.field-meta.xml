@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_AdWordDatum__c</fullName>
+    <description>Datum der letzten AdWords Anzeige</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Datum der letzten AdWords Anzeige am Markt</inlineHelpText>
+    <label>Datum der letzten AdWords Anzeige</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

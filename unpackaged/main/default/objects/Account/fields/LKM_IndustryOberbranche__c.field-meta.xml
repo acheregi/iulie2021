@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LKM_IndustryOberbranche__c</fullName>
+    <description>Achtung: Abhängige Auswahllisten 4 Ebenen</description>
+    <externalId>false</externalId>
+    <label>Oberbranche</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agenturen</fullName>
+                <default>false</default>
+                <label>Agenturen</label>
+            </value>
+            <value>
+                <fullName>Bank / Finanzdienstleistung / Versicherung</fullName>
+                <default>false</default>
+                <label>Bank / Finanzdienstleistung / Versicherung</label>
+            </value>
+            <value>
+                <fullName>Beauty / Kosmetik / Wellness</fullName>
+                <default>false</default>
+                <label>Beauty / Kosmetik / Wellness</label>
+            </value>
+            <value>
+                <fullName>Bildung</fullName>
+                <default>false</default>
+                <label>Bildung</label>
+            </value>
+            <value>
+                <fullName>Dienstleistung</fullName>
+                <default>false</default>
+                <label>Dienstleistung</label>
+            </value>
+            <value>
+                <fullName>Elektronik / IT</fullName>
+                <default>false</default>
+                <label>Elektronik / IT</label>
+            </value>
+            <value>
+                <fullName>Freizeit</fullName>
+                <default>false</default>
+                <label>Freizeit</label>
+            </value>
+            <value>
+                <fullName>Gastronomie</fullName>
+                <default>false</default>
+                <label>Gastronomie</label>
+            </value>
+            <value>
+                <fullName>Handel / Einkauf</fullName>
+                <default>false</default>
+                <label>Handel / Einkauf</label>
+            </value>
+            <value>
+                <fullName>KFZ</fullName>
+                <default>false</default>
+                <label>KFZ</label>
+            </value>
+            <value>
+                <fullName>Lokale Medien</fullName>
+                <default>false</default>
+                <label>Lokale Medien</label>
+            </value>
+            <value>
+                <fullName>Medizin / Gesundheit</fullName>
+                <default>false</default>
+                <label>Medizin / Gesundheit</label>
+            </value>
+            <value>
+                <fullName>Öffentlichkeit</fullName>
+                <default>false</default>
+                <label>Öffentlichkeit</label>
+            </value>
+            <value>
+                <fullName>Produzierende Industrie</fullName>
+                <default>false</default>
+                <label>Produzierende Industrie</label>
+            </value>
+            <value>
+                <fullName>Recht</fullName>
+                <default>false</default>
+                <label>Recht</label>
+            </value>
+            <value>
+                <fullName>Ströer-Branchen</fullName>
+                <default>false</default>
+                <label>Ströer-Branchen</label>
+            </value>
+            <value>
+                <fullName>Tourismus</fullName>
+                <default>false</default>
+                <label>Tourismus</label>
+            </value>
+            <value>
+                <fullName>Transport / Logistik</fullName>
+                <default>false</default>
+                <label>Transport / Logistik</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
