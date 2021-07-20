@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Compact_Layout</fullName>
+    <fields>LKM_AccountSperreStatus__c</fields>
+    <fields>CL_Firmenstatus__c</fields>
+    <fields>Phone</fields>
+    <fields>CL_RechnungsEmail__c</fields>
+    <fields>Website</fields>
+    <fields>CL_VISID__c</fields>
+    <label>Account Compact Layout</label>
+</CompactLayout>
